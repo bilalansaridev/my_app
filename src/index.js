@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.js';
-import 'bootstrap/dist/js/bootstrap.bundle.js'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './Navbar';
 import Carousel from './Carousel';
 import Card from './Card';
+import Pricing from './Component/Pricing';
 import Contactus from './Contactus';
 import Footer from './Footer';
 
@@ -20,7 +20,7 @@ root.render(
     <Navbar/>
     <Carousel/>
     <div className='container'>
-    <Card/>
+      <Pricing/>
     </div>
     <Contactus/>
     <Footer/>
@@ -34,3 +34,5 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
