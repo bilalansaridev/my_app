@@ -7,10 +7,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './Navbar';
 import Carousel from './Carousel';
-import Card from './Card';
 import Pricing from './Component/Pricing';
+import Marksheet from './Component/Marksheet';
 import Contactus from './Contactus';
 import Footer from './Footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
       <Pricing/>
     </div>
     <Contactus/>
+    <Marksheet />
     <Footer/>
 
 
