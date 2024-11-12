@@ -3,21 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Navbar from './Navbar';
-import Carousel from './Carousel';
-import Pricing from './Component/Pricing';
-import Marksheet from './Component/Marksheet';
-import Contactus from './Contactus';
-import Footer from './Footer';
+// import App from './App';
+// import Navbar from './Navbar';
+// import Carousel from './Carousel';
+// import Pricing from './Component/Pricing';
+// import Marksheet from './Component/Marksheet';
+// import Contactus from './Contactus';
+// import Footer from './Footer';
+import Form from './Component/Form';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   
-    <App />
+    {/* <App />
     <Navbar/>
     <Carousel/>
     <div className='container'>
@@ -26,6 +27,8 @@ root.render(
     <Contactus/>
     <Marksheet />
     <Footer/>
+ */}
+ <Form/>
 
 
 
