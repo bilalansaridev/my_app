@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Display from './TableDisplay';
 export default function Form(){
 
     var [name,setName] = useState("");
@@ -29,6 +30,9 @@ export default function Form(){
                 <br/>
                 <input className="btn btn-primary" type="submit" value="Submit" />
             </form>
+            <br/>
+            <Display a={name} b={email} c={phone} />
+
 
         </div>
         
