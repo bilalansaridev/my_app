@@ -5,16 +5,6 @@ function Hello() {
 
     <div className='container-fulid'>
     <PropExample name="Bilal" id="1355561"/>
-  
-
-
-
-
-   
-
-
-
-
 
     </div>
 
