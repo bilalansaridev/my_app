@@ -12,7 +12,8 @@ import reportWebVitals from './reportWebVitals';
 // import Contactus from './Contactus';
 // import Footer from './Footer';
 // import Form from './Component/Form';
-import MarksheetNew from './Component/MarksheetNew';
+//import MarksheetNew from './Component/MarksheetNew';
+import PassWord from './Component/PassWord';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,8 +30,10 @@ root.render(
     <Marksheet />
     <Footer/>
     <Form/>
+    <MarksheetNew/>
  */}
- <MarksheetNew/>
+ <PassWord/>
+ 
  
 
 
