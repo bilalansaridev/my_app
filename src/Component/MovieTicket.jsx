@@ -158,13 +158,6 @@ export default function MovieTicket() {
 
                         </form>
 
-
-
-
-
-
-
-
                     </div>
                     <div className="col-md-12">
                         <div className="card">
