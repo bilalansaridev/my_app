@@ -17,6 +17,7 @@ import reportWebVitals from './reportWebVitals';
 //import GetValue from './Component/GetValue';
 //import GetMaritalStatus from './Component/GetMaritalStatus';
 import Quiz from './Component/Quiz';
+import MovieTicket from './Component/MovieTicket';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -37,9 +38,10 @@ root.render(
     <PassWord/>
     <GetValue/>
     <GetMaritalStatus/>
+    <Quiz/>
  */}
+ <MovieTicket/>
  
- <Quiz/>
  
 
 
