@@ -16,8 +16,11 @@ import reportWebVitals from './reportWebVitals';
 //import PassWord from './Component/PassWord';
 //import GetValue from './Component/GetValue';
 //import GetMaritalStatus from './Component/GetMaritalStatus';
-import Quiz from './Component/Quiz';
-import MovieTicket from './Component/MovieTicket';
+//import Quiz from './Component/Quiz';
+//import MovieTicket from './Component/MovieTicket';
+import ButtonUsage from './Component/Mui/ButtonUsage';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -39,8 +42,22 @@ root.render(
     <GetValue/>
     <GetMaritalStatus/>
     <Quiz/>
+    <MovieTicket/>
  */}
- <MovieTicket/>
+ 
+
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<meta name="viewport" content="initial-scale=1, width=device-width" />
+
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+/>
+
+<br/>
+<ButtonUsage/>
+
  
  
 
