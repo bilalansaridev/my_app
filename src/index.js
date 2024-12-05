@@ -18,7 +18,8 @@ import reportWebVitals from './reportWebVitals';
 //import GetMaritalStatus from './Component/GetMaritalStatus';
 //import Quiz from './Component/Quiz';
 //import MovieTicket from './Component/MovieTicket';
-import ButtonUsage from './Component/Mui/ButtonUsage';
+//import ButtonUsage from './Component/Mui/ButtonUsage';
+import BottomNavi from './Component/Mui/BottomNavi';
 
 
 
@@ -45,7 +46,7 @@ root.render(
     <MovieTicket/>
  */}
  
-
+{/* 
  <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <meta name="viewport" content="initial-scale=1, width=device-width" />
@@ -53,10 +54,13 @@ root.render(
 <link
   rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-/>
+/> */}
 
 <br/>
-<ButtonUsage/>
+<BottomNavi/>
+{/* <ButtonUsage/> */}
+
+
 
  
  
