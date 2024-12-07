@@ -19,7 +19,8 @@ import reportWebVitals from './reportWebVitals';
 //import Quiz from './Component/Quiz';
 //import MovieTicket from './Component/MovieTicket';
 //import ButtonUsage from './Component/Mui/ButtonUsage';
-import BottomNavi from './Component/Mui/BottomNavi';
+//import BottomNavi from './Component/Mui/BottomNavi';
+import ToDolist from './Component/Mui/ToDolist';
 
 
 
@@ -57,8 +58,9 @@ root.render(
 /> */}
 
 <br/>
-<BottomNavi/>
+{/* <BottomNavi/> */}
 {/* <ButtonUsage/> */}
+ <ToDolist/> 
 
 
 
