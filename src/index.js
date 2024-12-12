@@ -20,9 +20,11 @@ import reportWebVitals from './reportWebVitals';
 //import MovieTicket from './Component/MovieTicket';
 //import ButtonUsage from './Component/Mui/ButtonUsage';
 //import BottomNavi from './Component/Mui/BottomNavi';
-//import ToDolist from './Component/Mui/ToDolist';
-import LoginUi from './Component/Mui/LoginUi';
-import CustomerTable from './Component/Mui/CustomerTable';
+// import ToDolist from './Component/Mui/ToDolist';
+// import LoginUi from './Component/Mui/LoginUi';
+// import CustomerTable from './Component/Mui/CustomerTable';
+import ToDolistNew from './Component/Mui/ToDolistNew';
+
 
 
 
@@ -63,7 +65,7 @@ root.render(
 {/* <BottomNavi/> */}
 {/* <ButtonUsage/> */}
  {/* <ToDolist/>  */}
- <LoginUi/>
+ {/* <LoginUi/>
 <br></br>
 <br></br>
 <br></br>
@@ -86,7 +88,8 @@ root.render(
 <br></br>
 <br></br>
 <br></br>
- <CustomerTable/>
+ <CustomerTable/> */}
+ <ToDolistNew/>
 
 
 
